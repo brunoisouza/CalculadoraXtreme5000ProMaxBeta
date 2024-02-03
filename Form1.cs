@@ -105,9 +105,16 @@ namespace CalculadoraXtreme5000ProMaxBeta
             {
                 txtResultado.Text = (primeiroValor * segundoValor).ToString();
             }
-            else
+            else if (operador == "/")
             {
-                txtResultado.Text = (primeiroValor / segundoValor).ToString();
+                if (segundoValor == 0)
+                {
+                    txtResultado.Text = "Não é possível dividir por zero";
+                }
+                else
+                {
+                    txtResultado.Text = (primeiroValor / segundoValor).ToString();
+                }                
             }
         }
 

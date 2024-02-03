@@ -104,13 +104,14 @@
             // 
             // btnMenos
             // 
+            this.btnMenos.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnMenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenos.Location = new System.Drawing.Point(228, 178);
             this.btnMenos.Name = "btnMenos";
             this.btnMenos.Size = new System.Drawing.Size(65, 69);
             this.btnMenos.TabIndex = 8;
             this.btnMenos.Text = "-";
-            this.btnMenos.UseVisualStyleBackColor = true;
+            this.btnMenos.UseVisualStyleBackColor = false;
             this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
             // 
             // btnSeis
@@ -148,13 +149,14 @@
             // 
             // btnVezes
             // 
+            this.btnVezes.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnVezes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVezes.Location = new System.Drawing.Point(228, 103);
             this.btnVezes.Name = "btnVezes";
             this.btnVezes.Size = new System.Drawing.Size(65, 69);
             this.btnVezes.TabIndex = 12;
             this.btnVezes.Text = "x";
-            this.btnVezes.UseVisualStyleBackColor = true;
+            this.btnVezes.UseVisualStyleBackColor = false;
             this.btnVezes.Click += new System.EventHandler(this.btnX_Click);
             // 
             // btnNove
@@ -215,42 +217,46 @@
             // 
             // btnDivisao
             // 
+            this.btnDivisao.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnDivisao.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDivisao.Location = new System.Drawing.Point(15, 328);
             this.btnDivisao.Name = "btnDivisao";
             this.btnDivisao.Size = new System.Drawing.Size(65, 69);
             this.btnDivisao.TabIndex = 15;
             this.btnDivisao.Text = "/";
-            this.btnDivisao.UseVisualStyleBackColor = true;
+            this.btnDivisao.UseVisualStyleBackColor = false;
             this.btnDivisao.Click += new System.EventHandler(this.btnDivisao_Click);
             // 
             // btnBackSpace
             // 
+            this.btnBackSpace.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnBackSpace.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBackSpace.Location = new System.Drawing.Point(15, 403);
             this.btnBackSpace.Name = "btnBackSpace";
             this.btnBackSpace.Size = new System.Drawing.Size(65, 69);
             this.btnBackSpace.TabIndex = 16;
             this.btnBackSpace.Text = "<";
-            this.btnBackSpace.UseVisualStyleBackColor = true;
+            this.btnBackSpace.UseVisualStyleBackColor = false;
             this.btnBackSpace.Click += new System.EventHandler(this.btnBackSpace_Click);
             // 
             // btnVirgula
             // 
+            this.btnVirgula.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnVirgula.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVirgula.Location = new System.Drawing.Point(157, 328);
             this.btnVirgula.Name = "btnVirgula";
             this.btnVirgula.Size = new System.Drawing.Size(65, 69);
             this.btnVirgula.TabIndex = 17;
             this.btnVirgula.Text = ",";
-            this.btnVirgula.UseVisualStyleBackColor = true;
+            this.btnVirgula.UseVisualStyleBackColor = false;
             this.btnVirgula.Click += new System.EventHandler(this.btnVirgula_Click);
             // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 485);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(307, 485);
             this.Controls.Add(this.btnVirgula);
             this.Controls.Add(this.btnBackSpace);
             this.Controls.Add(this.btnDivisao);
